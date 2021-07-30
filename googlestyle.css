@@ -4,7 +4,7 @@
     -moz-appearance:none;
     text-decoration:none;
     color:rgb(77, 77, 77);
-    font-family:Verdana;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 
@@ -32,7 +32,7 @@
     display:flex;
     justify-content:flex-start;
     width:50%;
-
+    font-size:9pt;
     
 }
 
@@ -54,6 +54,7 @@
     justify-content:center;
     width:100px;
     align-items: center;
+    font-size:9pt;
 }
 
 #signin{
@@ -63,7 +64,7 @@
 
 
 .logo{
-    marggin-left:auto;
+    margin-left:auto;
     margin-right:auto;
     display:block;
     justify-content: center;
@@ -75,7 +76,7 @@ background-color:lightgray;
 }
 .searchicon i{
     position:relative;
-    left:530px;
+    left:520px;
     top:30px;
     padding:5px;
 }
@@ -87,18 +88,21 @@ background-color:lightgray;
 }
 
 .button1{
-    width:20%;
+    width:10%;
     display:flex;
     justify-content:center;
+    
 }
 .button2{
-    width:20%;
+    width:10%;
     display:flex;
     justify-content: center;
+  
 }
 
 .buttonspace{
-    padding:10px;
+    padding: 9px;
+    border:none;
 }
 
 .container{
@@ -106,11 +110,12 @@ background-color:lightgray;
 }
 
 .footer{
-    background-color:lightgray;
+    background-color:rgb(233, 233, 233);
     position:absolute;
     bottom:0;
     display:flex;
     width:100%;
+    font-size:9pt;
 }
 
 .bottomlinks{
@@ -127,7 +132,7 @@ width:50%;
 justify-content: flex-end;
 }
 .bottomrightlinks a{
-    padding:1.5em;
+padding:1.5em;
 }
 
 .bottomleftlinks{
