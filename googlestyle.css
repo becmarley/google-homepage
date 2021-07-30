@@ -1,0 +1,140 @@
+* { 
+    margin:0;
+    padding:0;
+    -moz-appearance:none;
+    text-decoration:none;
+    color:rgb(77, 77, 77);
+    font-family:Verdana;
+}
+
+
+.inputbar{
+    border-radius:20px;
+    width:500px;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.navbar{
+    align-items:center;
+    display:flex;
+    width:100%;
+    font-size:10pt;
+    padding-top:10px;
+   
+}
+
+.navlinkleft{
+    display:flex;
+    justify-content:flex-start;
+    width:50%;
+
+    
+}
+
+.navlinkright{
+    display:flex;
+    justify-content:flex-end;
+    width:50%;
+}
+
+.linkleft{
+    display:flex;
+    justify-content:center;
+    width:100px;
+
+}
+
+.linkright{
+    display:flex;
+    justify-content:center;
+    width:100px;
+    align-items: center;
+}
+
+#signin{
+    background-color:slateblue;
+    color:white;
+}
+
+
+.logo{
+    marggin-left:auto;
+    margin-right:auto;
+    display:block;
+    justify-content: center;
+
+}
+.searchicon i:hover{
+background-color:lightgray;
+
+}
+.searchicon i{
+    position:relative;
+    left:530px;
+    top:30px;
+    padding:5px;
+}
+
+#searchbuttons{
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.button1{
+    width:20%;
+    display:flex;
+    justify-content:center;
+}
+.button2{
+    width:20%;
+    display:flex;
+    justify-content: center;
+}
+
+.buttonspace{
+    padding:10px;
+}
+
+.container{
+    padding-top:100px;
+}
+
+.footer{
+    background-color:lightgray;
+    position:absolute;
+    bottom:0;
+    display:flex;
+    width:100%;
+}
+
+.bottomlinks{
+    display:flex;
+    width:100%;
+    justify-content:center;
+    height:50px;
+    align-items: center;
+}
+
+.bottomrightlinks{
+display:flex;
+width:50%;
+justify-content: flex-end;
+}
+.bottomrightlinks a{
+    padding:1.5em;
+}
+
+.bottomleftlinks{
+display:flex;
+width:50%;
+justify-content:flex-start;
+}
+.bottomleftlinks a{
+    padding:1.5em;
+}
