@@ -10,13 +10,15 @@
 
 .inputbar{
     border-radius:20px;
-    width:500px;
-    height:30px;
+    width:550px;
+    height:40px;
     display:flex;
     justify-content: center;
     margin-left:auto;
     margin-right:auto;
+    border: solid 1pt rgb(231, 231, 231);
 }
+
 
 
 .navbar{
@@ -58,8 +60,10 @@
 }
 
 #signin{
-    background-color:slateblue;
+    background-color:rgb(0, 113, 250);
     color:white;
+    font-weight:600;
+    height:30px;
 }
 
 
@@ -70,14 +74,16 @@
     justify-content: center;
 
 }
+
+
 .searchicon i:hover{
 background-color:lightgray;
 
 }
 .searchicon i{
     position:relative;
-    left:520px;
-    top:30px;
+    left:500px;
+    top:35px;
     padding:5px;
 }
 
