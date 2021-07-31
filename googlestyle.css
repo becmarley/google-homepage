@@ -90,7 +90,7 @@ background-color:lightgray;
 #searchbuttons{
     display:flex;
     justify-content:center;
-    padding:20px;
+    padding:40px;
 }
 
 .button1{
@@ -128,7 +128,7 @@ background-color:lightgray;
     display:flex;
     width:100%;
     justify-content:center;
-    height:50px;
+    height:40px;
     align-items: center;
 }
 
