@@ -20,8 +20,8 @@
     border: solid 1pt rgb(218, 218, 218);
 }
 
-    .inputbar:hover{
-        box-shadow: 1px 1px 1px 1px rgb(223, 223, 223);
+.inputbar:hover{
+    box-shadow: 1px 1px 1px 1px rgb(223, 223, 223);
 }
 
 
@@ -31,7 +31,6 @@
     max-width:100%;
     font-weight:300;
     padding:17px;
-    
 }
 
 .navlinkleft{
@@ -41,14 +40,11 @@
     font-size:9pt;    
 }
 
-#about:hover, #store:hover, #gmail:hover,
+ #about:hover, #store:hover, #gmail:hover,
  #images:hover, #advertising:hover, #business:hover,
-  #how:hover, #privacy:hover, #terms:hover, #settings:hover{
-text-decoration-line: underline;
-
-
-  } 
-
+ #how:hover, #privacy:hover, #terms:hover, #settings:hover{
+ text-decoration-line: underline;
+} 
 
 .navlinkright{
     display:flex;
@@ -60,7 +56,6 @@ text-decoration-line: underline;
     display:flex;
     justify-content:center;
     width:50px;
- 
 }
 
 .linkright{
@@ -70,8 +65,6 @@ text-decoration-line: underline;
     width:60px;
     align-items: center;
     font-size:10pt;
-    
- 
 }
 
 .signin{
@@ -117,7 +110,6 @@ text-decoration-line: underline;
 .button2:hover{
     border:solid 1px rgb(207, 207, 207);
     border-radius:4px;
-
 }
 
 .buttonspace{
@@ -139,7 +131,6 @@ text-decoration-line: underline;
     display:flex;
     width:100%;
     font-size:9pt;
-    
 }
 
 .bottomlinks{
